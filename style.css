@@ -1,0 +1,60 @@
+#label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    font-size: 100px;
+    padding-bottom: 100px;
+    color: goldenrod;
+    font-weight: 700;
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 35px;
+
+}
+
+#add {
+    margin-right: 45px;
+    border-radius: 15px;
+    font-size: 75px;
+    padding: 25px 40px 25px 40px;
+    cursor: pointer;
+    background-color: lightgrey;
+    color: white;
+    border: none;
+}
+
+#subtract {
+    margin-left: 45px;
+    border-radius: 15px;
+    font-size: 75px;
+    padding: 25px 40px 25px 50px;
+    block-size: 150px 25px;
+    cursor: pointer;
+    background-color:lightgray;
+    color: white;
+    border: none;
+}
+
+#subtract:hover, #add:hover {
+    background-color: white;
+    color: lightgrey;
+    border: solid darkgrey;
+}
+
+#number {
+    border: 8px solid goldenrod;
+    border-radius: 25px;
+    height: 250px;
+    width: 300px; 
+}
+
+input {
+    font-size: 55px;
+    text-align: center;
+}
